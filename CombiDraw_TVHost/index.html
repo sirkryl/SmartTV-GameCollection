@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content = "width = device-width, height = device-height, initial-scale = 1, minimum-scale = 1, user-scalable = yes" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Tablet Draw</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://connect.movl.com/runtime/movlconnect1.1.js" ></script>
+<script type="text/javascript" src="js/util.js" ></script>
+<script type="text/javascript" src="js/DrawUI.js" ></script>
+<script type="text/javascript" src="js/DrawHost.js" ></script>
+<script type="text/javascript" src="js/Main.js" ></script>
+</head>
+
+<body onLoad="onPageLoaded();">
+<div class="container">
+  <div class="header">
+	<div id="color_red" name="red">
+		<canvas id="canvas_red" class="color" width="50px" height="50px"></canvas>
+	</div>
+	<div id="color_blue" name="blue">
+		<canvas id="canvas_blue" class="color" width="50px" height="50px"></canvas>
+	</div>
+	<div id="color_green" name="green">
+		<canvas id="canvas_green" class="color" width="50px" height="50px"></canvas>
+	</div>
+	<div id="color_yellow" name="yellow">
+		<canvas id="canvas_yellow" class="color" width="50px" height="50px"></canvas>
+	</div>
+
+	<div id="width_1" name="1"><canvas id="canvas_1" class="width" width="50px" height="50px"></canvas></div>
+	<div id="width_3" name="3"><canvas id="canvas_3" class="width" width="50px" height="50px"></canvas></div>
+	<div id="width_5" name="5"><canvas id="canvas_5" class="width" width="50px" height="50px"></canvas></div>
+	<div id="width_8" name="8"><canvas id="canvas_8" class="width" width="50px" height="50px"></canvas></div>
+	<div id="width_10" name="10"><canvas id="canvas_10" class="width" width="50px" height="50px"></canvas></div>
+
+	<div id="eraser" name="white"><canvas id="canvas_eraser" class="width" width="50px" height="50px"></canvas></div>
+	<div id="clear" name="x"><canvas id="canvas_clear" class="width" width="50px" height="50px"></canvas></div>
+  <!-- end .header -->
+  </div>
+  <div class="content">
+  <canvas id="draw" width="1280" height="650"></canvas>
+  </div>
+  <div class="footer"> 
+        <span class="float_left"> TV Code: &nbsp;</span>
+        <div id="status" class="float_left">
+              <div id="roomCode"></div>
+        </div>
+        <div id="contentView"></div>
+        <div class="clearfloat"></div> 
+   		<div id="gameName"></div>
+   		<div class="clearfloat"></div>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

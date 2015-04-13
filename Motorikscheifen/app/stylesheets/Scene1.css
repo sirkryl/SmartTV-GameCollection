@@ -1,0 +1,46 @@
+#SceneScene1 {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #FFFFFF;
+	background-image : url('');
+}
+
+
+#infinite {
+	float: left;
+	width: 33.3%;
+	height: 70px;
+	border: 2px solid #2EFEC8;
+	background-color: #2EFEC8;
+	background-image: url(../../images/infinite.png);
+	background-repeat: no-repeat; 
+    background-size: Auto 55px; 
+    background-position: center;
+}
+
+#circle {
+	float: left;
+	width: 33.3%;
+	height: 70px;
+	border: 2px solid #2EFE64;
+	background-color: #2EFE64;
+	background-image: url(../../images/circle.png);
+	background-repeat: no-repeat; 
+    background-size: Auto 55px; 
+    background-position: center;
+}
+
+#curves {
+	float: left;
+	width: 33.3%;
+	height: 70px;
+	border: 2px solid #F7FE2E;
+	background-color: #F7FE2E;
+	background-image: url(../../images/curves.png);
+	background-repeat: no-repeat; 
+    background-size: Auto 55px; 
+    background-position: center;
+}

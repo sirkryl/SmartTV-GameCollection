@@ -1,0 +1,57 @@
+#SceneScene1 {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #ffffff;
+	background-image : url('');
+}
+
+.mapDroppable {
+	float: left;
+	margin: 5px;
+}
+
+#map {
+	position: fixed;
+	top: 25%;
+	height: 75%;
+	padding: 10px 10px;
+}
+
+#flags {
+	position: fixed;
+	left: 50%;
+	margin-left: -420px;
+	height: 20%;
+	padding: 10px 30px;
+}
+
+.flagDraggable {
+	float: left;
+	margin: 17px;
+	height: 20px;
+}
+
+#new_game {
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+		margin-bottom: 10px;
+		margin-right: 20px;
+		border: 2px solid #58ACFA;
+		border-radius: 15px;
+		padding: 7px;
+		font-size: 15px;
+}
+
+#won {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		margin-top: -70px;
+		margin-left: -240px;
+		border: 15px solid #58ACFA;
+		border-radius: 15px;
+}

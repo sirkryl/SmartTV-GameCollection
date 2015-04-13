@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content = "width = device-width, height = device-height, initial-scale = 1, minimum-scale = 1, user-scalable = yes" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Tablet Draw</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://connect.movl.com/runtime/movlconnect1.1.js" ></script>
+<script type="text/javascript" src="js/util.js" ></script>
+<script type="text/javascript" src="js/DrawUI.js" ></script>
+<script type="text/javascript" src="js/DrawHost.js" ></script>
+<script type="text/javascript" src="js/Main.js" ></script>
+</head>
+
+<body onLoad="onPageLoaded();">
+<div class="container">
+  <div class="header">
+    <div id="chatView"></div>
+    <div class="clearfloat"></div>
+  <!-- end .header -->
+  </div>
+  <div class="sidebar1">
+    <div id="users"></div>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+  <div id="contentView"></div>
+  <canvas id="draw" class="drawing" width="1280" height="600"></canvas>
+  </div>
+  <div class="footer"> 
+        <span class="float_left"> TV Code: &nbsp;</span>
+        <div id="status" class="float_left">
+              <div id="roomCode"></div>
+        </div>
+        <div class="clearfloat"></div> 
+   		<div id="gameName"></div>
+   		<div class="clearfloat"></div>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

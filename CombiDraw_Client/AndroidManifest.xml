@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.fdts.combidraw" android:versionCode="1" android:versionName="1.0">
+
+	<uses-permission android:name="android.permission.INTERNET" android:required="false"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" android:required="false"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" android:required="false"/>
+
+	<uses-sdk android:minSdkVersion="14" />
+
+	<application android:icon="@drawable/ic_launcher" android:name="Connect"
+		android:label="Combi Draw" android:allowClearUserData="true">
+		<activity android:name=".Login" android:label="Combi Draw" android:configChanges="keyboardHidden|orientation">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".DrawActivity"
+			android:configChanges="keyboardHidden|orientation" />
+
+	</application>
+</manifest>

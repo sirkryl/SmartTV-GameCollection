@@ -1,0 +1,35 @@
+#SceneScene1 {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #ffffff;
+	background-image : url('');
+}
+
+#items {
+	width: 100%;
+	height: 60px;
+	background-color: #333333;
+	color: white;
+}
+
+#items div {
+	float: left;
+	margin: 10px;
+}
+
+#canvas.color {
+	width: 20px;
+	height: 20px;
+}
+
+
+#sketch{
+	width : 960px;
+	height: 470px;
+	background-color: #fffff;
+}
+
+

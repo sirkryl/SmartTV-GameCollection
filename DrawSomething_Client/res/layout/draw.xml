@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF" >
+        
+        <TextView
+            android:id="@+id/text_draw"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Rate!"
+            android:textSize="50sp" />
+
+        <android.gesture.GestureOverlayView
+            android:id="@+id/gestures"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/button_clear"
+            android:layout_below="@id/text_draw"
+            android:fadeEnabled="false"
+            android:fadeOffset="5000000000"
+            android:gestureColor="#000000"
+            android:gestureStrokeType="multiple"
+            android:gestureStrokeWidth="2"
+            android:uncertainGestureColor="#000000" />
+        
+        <EditText
+            android:id="@+id/chat_content"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button_submit"
+            android:layout_alignTop="@+id/button_submit"
+            android:maxLength="50"
+            android:maxLines="1" 
+            android:textColor="@android:color/black"
+	    	android:textColorLink="@android:color/black" 
+	    	android:inputType="text"/>
+        
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gestures"
+            android:layout_marginBottom="70sp"
+            android:layout_toRightOf="@id/chat_content"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:text="Raten"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="17dp"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:text="Zeichnung löschen"
+            android:textSize="22sp" />
+        
+         <Button
+             android:id="@+id/button_skip"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentRight="true"
+             android:layout_marginBottom="17dp"
+             android:paddingLeft="20sp"
+             android:paddingRight="20sp"
+             android:text="Überspringen"
+             android:textSize="22sp" />
+
+    </RelativeLayout>

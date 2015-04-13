@@ -1,0 +1,63 @@
+#SceneGame {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #ffffff;
+	background-image : url('');
+}
+
+#info_area {
+	width: 100%;
+	height: 80px;
+	border: 2px solid black;
+	padding: 10px 30px;
+}
+
+#score, #game_info {
+	float: left;
+	margin-right: 50px;
+	border: 2px solid #f29400;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+#player_msg {
+	font-size: 200%;
+}
+
+th {
+	color: #f29400;
+}
+
+#info_area table#score th.label {
+	text-align: left;
+}
+
+#info_area table#score td {
+	text-align: center;
+}
+
+#play_area {
+	padding: 30px 30px;
+}
+
+.memoryCard {
+	float: left;
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+}
+
+#new_game {
+	position: fixed;
+	right: 0%;
+	bottom: 0%;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	border: 2px solid #f29400;
+	border-radius: 15px;
+	padding: 7px;
+	font-size: 15px;
+}

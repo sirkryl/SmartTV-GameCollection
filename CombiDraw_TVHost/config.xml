@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+	<ThumbIcon itemtype="string"></ThumbIcon>
+	<BigThumbIcon itemtype="string"></BigThumbIcon>
+	<ListIcon itemtype="string"></ListIcon>
+	<BigListIcon itemtype="string"></BigListIcon>
+	<type>user</type>
+	<cpname> </cpname>
+	<cplogo> </cplogo>
+	<cpauthjs> </cpauthjs>
+	<ver>0.100</ver>
+	<fullwidget>y</fullwidget>
+	<srcctl>y</srcctl>
+	<ticker>n</ticker>
+	<childlock>n</childlock>
+	<audiomute>n</audiomute>
+	<videomute>n</videomute>
+	<dcont>y</dcont>
+	<mouse itemtype="string">y</mouse>
+	<widgetname>Combi Draw</widgetname>
+	<description>Combi Draw</description>
+	<width>1280</width>
+	<height>720</height>
+</widget>

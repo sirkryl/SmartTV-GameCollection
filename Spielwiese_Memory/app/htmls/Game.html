@@ -1,0 +1,43 @@
+<!-- this html will be a contents of div SceneGame -->
+<div id="info_area">
+	<table id="score">
+		<tbody>
+			<tr>
+				<th></th>
+				<th>Player 1</th>
+				<th>Player 2</th>
+			</tr>
+			<tr>
+				<th class="label">Paare</th>
+				<td id="player1_pairs"></td>
+				<td id="player2_pairs"></td>
+			</tr>
+			<tr>
+				<th class="label">Versuche</th>
+				<td id="player1_tries"></td>
+				<td id="player2_tries"></td>
+			</tr>
+		</tbody>
+	</table>
+	<table id="game_info">
+		<tbody>
+			<tr>
+				<th>Restliche Paare</th>
+				<td id="remainingPairs"></td>
+			</tr>
+		</tbody>
+	</table>
+	<div id="player_msg"></div>
+</div>
+<!-- end info_area -->
+
+<div id="play_area">
+	<div id="board"></div>
+</div>
+
+<!-- end play_area -->
+
+
+<button type="button" id="new_game" onclick="newGame()">
+		Neues Spiel
+</button>
